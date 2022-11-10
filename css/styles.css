@@ -1,0 +1,248 @@
+* {
+  /* padding: 0;
+  margin: 0;
+  box-sizing: border-box; */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+body {
+  background: #eee;
+  padding: 0 16px;
+  height: auto;
+  
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.header {
+  background-color: #DCAEE8;
+  overflow: hidden;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  margin: auto -16px;
+}
+
+.header a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.memo {
+  padding: 14px 16px;
+}
+.memo a {
+  font-family: 'Pacifico', cursive;
+  color: #fff;
+  float: left;
+  font-size: 25px;
+
+}
+
+.header a:hover {
+  color: #FFC5E6;
+}
+
+
+/* Paragraph Heading */
+
+.About {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-family: 'Pacifico', cursive;
+  background-color: #FFC5E6;
+  position: relative;
+  top: 100px; left: 550px; bottom: 75;
+  width: 12%;
+  border-radius: 50% 20% / 10% 40%;
+  box-shadow: 0 0 10px 0 rgba(226, 176, 214, 0.3);
+  padding: 0.75px;
+}
+
+.About:hover {
+  color: #DCAEE8;
+}
+
+
+
+
+
+/* About Paragraph */
+
+
+
+.Para {
+  background-color: #fff;
+  width: 50%;
+  padding: 16px 32px;
+  font-family: 'Nanum Brush Script', cursive;
+  box-shadow: #eee;
+  color: #000;
+  height: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 120px; left: 320px; bottom: 60;
+  background-color: rgb(255, 255, 255);
+  background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
+  height: auto;
+  min-height: 200px;
+  box-shadow: black;
+  box-sizing: border-box;
+  border-radius: 30px;
+  cursor: pointer;
+
+
+}
+
+.Para:hover {
+  color: #FFC5E6;
+  
+}
+
+/* My mischeif */
+
+.mischeif{
+
+  background-color: #fff;
+  width: 50%;
+  padding: 16px 32px;
+  font-family: 'Nanum Brush Script', cursive;
+  box-shadow: #eee;
+  color: #000;
+  height: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 200px; left: 320px; bottom: 60;
+  background-color: rgb(255, 255, 255);
+  background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
+  height: auto;
+  min-height: 200px;
+  box-shadow: black;
+  box-sizing: border-box;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.mischeif:hover{
+  color: #FFC5E6;
+}
+
+
+.mischeif-heading{
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-family: 'Pacifico', cursive;
+  background-color: #FFC5E6;
+  position: relative;
+  top: 180px; left: 550px; bottom: 75;
+  width: 12%;
+  border-radius: 50% 20% / 10% 40%;
+  box-shadow: 0 0 10px 0 rgba(226, 176, 214, 0.3);
+  padding: 0.85px;
+
+}
+
+
+/* My input */
+
+.input {
+  position: relative;
+  background-color: #fff;
+  box-shadow: #eee;
+  top: 280px;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+  display: flex;
+  background-color: #DCAEE8;
+  background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
+  color: #fff;
+ 
+}
+
+.input button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #FFC5E6;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+  font-family: 'Nanum Brush Script', cursive;
+  font-weight: bold;
+}
+
+ .button2 {
+  position: absolute;
+  right: 10px;
+  bottom: -10px;
+  left: 18px;
+  background: #FFC5E6;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+  font-family: 'Nanum Brush Script', cursive;
+  font-weight: bold;
+}
+
+.input button:hover{
+  color: #DCAEE8;
+}
+
+.input h2 {
+  padding: 16px 32px;
+  font-family: 'Nanum Brush Script', cursive;
+}
+
+.input h2:hover {
+  color: #FFC5E6;
+}
+
+
+footer {
+  position: relative;
+  text-align: center;
+  top: 500px;
+  width: 105%;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  background-color: #DCAEE8;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+
+footer p {
+  color: #fff;
+  font-family: 'Merriweather Sans', sans-serif;
+} 
+
